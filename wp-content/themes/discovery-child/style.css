@@ -1,0 +1,317 @@
+/*
+Theme Name: Discovery Child
+Version: 1.0.4
+Author: Hector Fabio Tobon R. - Decision and Policy Analysis (DAPA) - CIAT
+Author URI: http://dapa.ciat.cgiar.org
+Template: discovery
+*/
+
+@import url("../discovery/style.css");
+@import url("http://fonts.googleapis.com/css?family=Oswald:700");
+
+/********************* GENERAL ************************/
+html {
+    background-image: url("/wp-content/themes/discovery-child/images/background.jpg");
+}
+
+body {
+    background: none;
+}
+
+/*********************HEADER*************************/
+
+div.wrapper-main {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 15px #E1E1E1;
+    margin-top: 20px;
+    padding: 20px 30px 10px;
+    /* SHADOW */
+    -webkit-box-shadow: 2px 7px 29px #5A5E59; /* Safari and Chrome */
+    box-shadow: 2px 7px 29px #5A5E59;
+    /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Glow(Color=#5A5E59,Strength=10)";
+    background-image: url("images/header.png");
+    background-repeat: no-repeat;
+}
+
+header {
+
+}
+
+#logo {
+    float: left;
+    font-size: 70px;
+    height: 38px;
+    margin: 51px 30px;
+}
+
+#logo a {
+    color: #487429;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+#secondary-logo {
+    display: inline;
+    margin-right: 10px;
+}
+
+#top-menu {
+    display: inline;
+    font-size: 11px;
+    line-height: 18px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+#top-menu ul {
+    float: right;
+}
+
+#header-right {
+    float: right;
+    text-align: right;
+    width: 360px;
+}
+
+/***********SLIDER******************/
+#welcome-message {
+    margin: 20px 0;
+}
+/* button "continue reading" */
+#form-subscribe input#form-submit.green, a.button.green {
+    background-color: #A2BC6B;
+    background-image: -moz-linear-gradient(center top , #C3D69B, #A2BC6B);
+}
+#featured-posts div.post-cover {
+    width: 600px;
+}
+#featured-posts .slides {
+    height: 300px;
+}
+#featured-posts .slides li {
+    height: 300px;
+}
+#featured-posts div.post-excerpt {
+    min-height: 260px;
+}
+#featured-posts div.post-excerpt {
+    margin-right: 25px;
+    width: 283px;
+}
+
+/*****************MAIN MENU*****************/
+/* empty space */
+nav#main-menu {
+    background-color: #A2BC6B;
+}
+nav#main-menu a {
+    background-color: #A2BC6B;
+    text-align: center;
+    width: 124px;
+}
+/* right border */
+nav#main-menu li {
+    border-left: 2px solid white;
+    border-right: 0px;
+}
+
+/* selected item */
+nav#main-menu a:hover, nav#main-menu li.current-menu-item a, nav#main-menu a:active, nav#main-menu li.current-item a {
+    background-color: #487429;
+}
+/*********** BLOCKS SECTION *************/
+#special-blocks div.column {
+    width: 260px;
+    margin-left: 11px;
+    margin-right: 11px;
+}
+
+#special-blocks h2 a {
+    color: #4E2700;
+}
+
+#special-blocks p {
+    text-align: justify;
+}
+
+#special-blocks .read-more a {
+    color: blue;
+    text-decoration: underline;
+}
+
+#special-blocks h1 a {
+    font-family: 'Oswald', sans-serif;
+}
+
+#special-blocks h3 {
+    margin: 15px 0 5px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#special-blocks #post-list li {
+    line-height: 14px;
+}
+#special-blocks #post-list a {
+    color: #948A54;
+    font-size: 11px;
+}
+
+/* Tag List */
+#tag-list a {
+    color: #948A54;
+    font-family: 'Oswald', sans-serif;
+}
+
+/************* POST **************/
+
+#content.single-post {
+    background-color: #F7F5ED;
+    border-left: 7px solid #FFD51E;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 570px;
+    padding-right: 20px;
+}
+#content.single-post h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: #4E2700;
+}
+#content.single-post .secondary {
+    margin: 0px;
+    padding: 0px;
+    background: none;
+    border-top: none;
+}
+
+#content.single-post .post-content {
+    font-size: 12px;
+    line-height: 17px;
+}
+
+/* Images and caption */
+.wp-caption {
+    background: none repeat scroll 0 0 lightgray;
+    padding: 5px;
+}
+.wp-caption a {
+
+}
+
+.wp-caption a img {
+    width: 100%;
+}
+
+.wp-caption .wp-caption-text {
+    font-family: verdana;
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+}
+
+/* Author */
+div.post-meta div.column-last {
+    width: 600px;
+}
+
+/**************** PAGES FULL WITH ******************/
+div.full-width #content {
+    width: 880px;
+}
+
+/*************** ARCHIVE *****************/
+.breadcrumbs a {
+    text-decoration: underline;
+    color: blue;
+}
+.breadcrumbs .current {
+    color: black;
+}
+.posts-list {
+    background-color: #F7F5ED;
+}
+.posts-list li {
+    padding: 15px;
+    min-height: 130px;
+}
+
+.posts-list li img {
+    border-left: 7px #FFD51D solid;
+    padding-left: 5px;
+}
+
+ul.posts-list div.post-excerpt {
+    font-size: 11px;
+    line-height: 16px;
+    text-align: justify;
+    width: 415px;
+}
+
+.posts-list .post-excerpt .postmetadata .category a {
+    color: #487429;
+}
+
+ul.posts-list li.secondary p.postmetadata {    
+    margin: 0px;
+}
+
+ul.posts-list li.secondary span.category { 
+    display: inline-block;
+}
+
+ul.posts-list li.secondary h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 0px;
+}
+
+.posts-list li h1 a {
+    color: #4E2700;
+}
+
+.posts-list li .read-more a {
+    color: #487429;
+}
+
+#main div.divider {
+    margin: 0px;
+}
+/********** SIDE BAR ******************/
+aside a {
+    color: #4D4D4D;
+}
+
+div.widget li {
+    list-style-type: disc;
+    margin-bottom: 0px;  
+    /*padding-left: 20px;*/
+}
+/*************** FOOTER *****************/
+#prefooter {
+    background-color: #FFFFFF;
+    background-image: url("images/footer.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    border: 0 none;
+    height: 150px;
+    margin-bottom: -11px;
+    margin-left: -30px;
+    padding: 10px 19px;
+    width: 960px;
+}
+
+#prefooter div.column {
+    float: left;
+    display: inline;
+    margin-right: 20px;
+    margin-top: 40px;
+    width: 145px;
+    text-align: end;
+}
+
+.wrapper .copyright {
+    color: #948A54;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: monospace;
+}
