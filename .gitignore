@@ -4,6 +4,7 @@
 /wp-content/themes/discovery
 /wp-content/themes/twentythirteen
 /wp-content/themes/twentytwelve
+/wp-content/themes/twentyfourteen
 /wp-content/themes/index.php
 /wp-content/plugins
 /wp-content/upgrade
@@ -15,7 +16,7 @@
 /index.php
 /license.txt
 /quickstart.html
-/readme.html
+/--readme.html
 /sitemap.xml
 /sitemap.xml.gz
 /test.html

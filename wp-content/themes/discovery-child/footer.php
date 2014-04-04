@@ -7,22 +7,26 @@ if (!is_home()) {
 ?>>
 
     <div class="column">
-<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer: Column 1')) : ?> <?php endif; ?>
+        <a href='http://ciat.cgiar.org' target='_blank'>
+<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer: Column 1')) : ?> <?php endif; ?></a>
         <div class="cleaner">&nbsp;</div>
     </div><!-- end .column -->
 
     <div class="column">
-<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer: Column 2')) : ?> <?php endif; ?>
+           <a href='http://www.see.leeds.ac.uk/research/icas/climate-impacts-group/' target='_blank'>
+<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer: Column 2')) : ?> <?php endif; ?></a>
         <div class="cleaner">&nbsp;</div>
     </div><!-- end .column -->
 
     <div class="column">
-<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer: Column 3')) : ?> <?php endif; ?>
+        <a href='http://www.walker-institute.ac.uk/' target='_blank'>
+<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer: Column 3')) : ?> <?php endif; ?></a>
         <div class="cleaner">&nbsp;</div>
     </div><!-- end .column -->
 
     <div class="column column-last">
-<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer: Column 4')) : ?> <?php endif; ?>
+        <a href='http://www.futureearth.info/' target='_blank'>
+<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer: Column 4')) : ?> <?php endif; ?></a>
         <div class="cleaner">&nbsp;</div>
     </div><!-- end .column -->
 
