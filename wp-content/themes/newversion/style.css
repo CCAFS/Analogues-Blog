@@ -1,0 +1,466 @@
+/*
+Copyright (C) 2015 JGALLEGO
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/* 
+    Created on : May 15, 2015, 3:56:39 AM
+    Author     : JGALLEGO
+*/
+// Common styles
+@import url("css/reset.css"); 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+@font-face {
+    font-family: 'OpenSans';
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.hidden{display:none;}
+
+.section-gray{
+    background: rgb(242,242,242);
+    width: 100%
+}
+.section-white{
+    background: rgb(255,255,255);
+    width: 100%
+}
+
+.row{
+    margin: 0 auto;
+    width: 1024px;
+}
+
+/*
+*   Header Elements
+*/
+#title{
+    float: left;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    padding-left: 10%;
+    padding-top: 15px;    
+}
+#title a{
+    color: rgb(0,0,0);
+    text-decoration: none;
+}
+#logo{
+    float: right;
+}
+#header-line{
+    background: rgb(159,173,146);
+    height: 5px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 100%;       
+}
+
+#menu-line{
+    background: rgb(0,118,163);
+    height: 5px;
+    width: 100%;       
+}
+
+#blog-menu {
+    float: left;
+    position: relative;
+    padding-left: 37.8%;
+    width: 500px;
+}
+#top-menu {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 10px 0px 5px;
+    position: relative;
+    right: 58.5%;
+}
+#top-menu li  {
+    float: left;
+    margin: 0;
+    padding: 9px 15px 2px 15px;
+    border: 0px;
+}
+ul#top-menu li.current-menu-item{
+    background: rgb(0,118,163);
+    color: #000000;
+}
+ul#top-menu li:hover {
+    background: rgb(0,118,163);
+    color: #FFFFFF;
+}
+#top-menu li a{
+    font-family: 'OpenSans', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+ul#top-menu li:hover > a:hover{
+    color: #FFFFFF;
+}
+
+/* THE SUBMENU LIST HIDDEN BY DEFAULT */
+ul#top-menu  ul {
+    display: none;
+}
+/* WHEN THE FIRST LEVEL MENU ITEM IS HOVERED, THE CHILD MENU APPEARS */
+/* ul#top-menu li ul { */
+ul#top-menu li:hover > ul {
+    list-style-type: none;
+    border: 0.5px solid #ffffff;
+    position: absolute;
+    display: block;
+    width: 1024px;
+    height: 55px;
+    position: absolute;
+    margin: 0px 0 7px 0;
+    background: rgb(242,242);
+}
+
+/* ul#top-menu li ul li{*/
+ul#top-menu li:hover ul li{
+    background: rgb(0,118,163);
+    border: solid 1px rgb(0,118,163);
+    margin: 9px 15px 2px 10px;
+}
+
+/* ul#top-menu li ul li a {*/
+ul#top-menu li:hover > ul li a {
+    float: left;
+    font: bold 0.7em 'OpenSans',sans-serif;
+    line-height: 25px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #110000;
+    margin: 0;
+    padding: 1px 30px 1px 1px;
+    background: #0076a3; 
+}
+
+ul#top-menu li:hover > ul li a:hover {
+    color: #120000;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+#submenu{
+    left: 14%;
+    padding: 2px 2px 2px 1px;
+}
+
+/*
+* 
+*/
+#right-menu{
+    margin: 0;
+    position: relative;
+    right: 8%;
+    list-style-type: none;
+    width: 600px;
+}
+
+#right-menu li{
+    float: right;
+    padding-left: 1%;
+    margin: 0;
+    text-decoration: none;
+}
+
+#right-menu li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+    height: 1px;
+    margin-top: -1px;
+}
+
+/*
+*  End Header Elements
+*/
+
+/*
+*   Body Elements
+*/ 
+.readmore{
+    background: rgb(0,118,163);
+    border: 0.03px solid;
+    color: #000000;
+    float: right;
+    margin-top: 2%;
+    width: 80px;
+    text-align: center;
+} 
+.readmore a{
+    color: #FFFFFF;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.section-title{
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+/*
+*   Welcome section Elements
+*/
+#welcome-section{
+    background: rgb(242,242,242);
+    padding: 60px 0px 50px 100px;
+    overflow: hidden;
+}
+#welcome-multimedia{
+    width: 450px; float: left;
+}
+#welcome-text{
+    margin-left: 450px;
+}
+#welcome-text-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+#welcome-text-content-excerpt{
+    text-align: justify;
+}
+/*
+*   Introduction section Elements
+*/
+#intro-section{
+    background: rgb(255,255,255);
+    height: 400px;
+    padding: 50px 0px 50px 100px;
+}
+
+
+#intro-blocks{
+    margin-top: 3%;
+}
+#intro-blocks-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+#intro-blocks-content{
+    text-align: justify;    
+}
+
+#intro-blocks-1, #intro-blocks-2,#intro-blocks-3 {
+    height: 250px;
+    margin-top: 1%;
+    margin-left: 60px;
+    width: 210px;
+}
+#intro-blocks-1{
+    float: left;
+}
+#intro-blocks-2{
+    float: left;
+
+}
+#intro-blocks-3{
+    float: left;
+}
+
+/*
+*   News Section Elements
+*/
+#news-section{
+    background: rgb(242,242,242);
+    padding: 50px 0px 20px 100px;
+}
+.news{
+    background: #FFFFFF;
+    //margin-left: 1%;
+    height: 150px;
+    margin-top: 1%;
+}
+.newsmedia{
+    float: left;
+    width: 250px;
+}
+.newsmedia img{
+    height: 150px;
+    width: 250px;
+}
+.news-content{
+    float: left;
+    margin-left: 20px;
+    text-align: justify;
+    width: 600px;
+}
+
+.newstitle{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.newstitle a{
+    text-decoration: none;
+}
+.type-post{
+
+}
+.news-excerpt{
+
+}
+
+#loadmore{
+    background: #FFFFFF;
+    border: 0.9px solid #000000;
+    color: #000000;
+    font-weight: bold;
+    height: 25px;
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    margin-left: 45%;
+    text-align: center;
+}
+#loadmore a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/*
+*   Footer Elements
+*/
+
+#footer{
+    margin: 0;
+    padding-top: 20px;
+}
+#blog-footer {
+    background: #F1F1F1;
+    float: left;
+    position: relative;
+    left: 10%;
+}
+#leadby{
+    float: left;
+    padding: 10px 10px 20px 5px;
+}
+#leadby-title{
+    color: rgb(87,118,36);
+    font-size: 20px;
+}
+#partners{
+    float: right;
+    padding: 10px 10px 20px 32px;
+}
+
+#partners-title{
+    color: rgb(87,118,36);
+    font-size: 20px;
+    padding-left: 50px;
+}
+#main-footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 10px 20px 5px;
+    position: relative;
+    left: 0%;
+}
+#main-footer li  {
+    float: left;
+    margin: 0;
+    padding: 4px;
+    color: #FFFFFF;
+    border: 0px;
+}
+#main-footer li a{
+    color: #FFFFFF;
+    font-style: normal;
+}
+#flagship{
+    background: #FFFFFF;
+    float: left;
+    padding: 10px 10px 20px 5px;
+    position: relative;
+    left: 25%;
+}
+
+#flagship a{
+    text-decoration: none;
+    color: #000000;
+}
+#getintouch{
+    float: right;
+    left: 10%;
+}
+#copyright{
+    background: #F1F1F1;
+    margin-left: 50%;
+    width: 350px;
+    padding-top: 15px;
+}
+
+
+
+/*
+* Other Styles
+*/
+
+/*
+* Page Styles
+*/
+#page{
+    background: rgb(255,255,255);
+    box-shadow: 2px 2px 5px #999;
+    padding: 2%;
+}
+.page-title{
+    font-size: 34px;
+    text-align: center;
+}
+.page-content{
+    font-size: 14px;
+    text-align: justify;
+}
+/*
+* Post Styles
+*/

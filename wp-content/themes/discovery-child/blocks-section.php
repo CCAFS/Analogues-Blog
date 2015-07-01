@@ -18,7 +18,7 @@
                 if ($isFirst) {
                     $isFirst = false;
                     ?>
-                    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+                    <h2><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h2>
                     <?php
                     // Getting image.
                     $cropLocation = get_post_meta($post->ID, 'wpzoom_thumb_crop', true); // get crop location from post meta

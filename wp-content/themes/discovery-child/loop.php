@@ -33,6 +33,7 @@ $thumbSize = option::get('loop_thumb_size');
                                 <?php if (option::get('display_category') == 'on') { ?><span class="category"><?php the_category(', '); ?></span><?php } ?>
                             </p>
                             <h1 class="title title-xsmall"><a href="<?php the_permalink(); ?>" title="<?php printf(esc_attr__('Permalink to %s', 'wpzoom'), the_title_attribute('echo=0')); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
+							<h5><?php echo get_post_meta($post->ID, 'pmf__BlogTypes', true);?></h5>
                             <?php echo substr(get_the_excerpt(), 0, strpos(get_the_excerpt(), ' ', 290)); ?>... <span class="read-more"><a href="<?php the_permalink(); ?>">Read more</a></span>
                         </div><!-- end .post-excerpt -->
                     <?php } ?>

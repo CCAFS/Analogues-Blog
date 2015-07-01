@@ -11,7 +11,7 @@ Template: discovery
 
 /********************* GENERAL ************************/
 html {
-    background-image: url("images/background.jpg");
+    background-image: url("/wp-content/themes/discovery-child/images/background.jpg");
 }
 
 body {
@@ -120,7 +120,6 @@ nav#main-menu a:hover, nav#main-menu li.current-menu-item a, nav#main-menu a:act
 }
 /*********** BLOCKS SECTION *************/
 #special-blocks div.column {
-    height: 516px;
     width: 260px;
     margin-left: 11px;
     margin-right: 11px;
@@ -316,8 +315,5 @@ div.widget li {
     font-weight: bold;
     font-family: monospace;
 }
-
 /********Title for Tag List*****/
-.widgettitle{
-    margin-top: 10px;
 }
