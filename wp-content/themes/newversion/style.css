@@ -115,8 +115,12 @@ body {
 }
 ul#top-menu li.current-menu-item{
     background: rgb(0,118,163);
-    color: #000000;
+    color: #FFF;
 }
+ul#top-menu li.current-menu-item a, ul#top-menu li:hover a{ 
+    color: #FFF;
+}
+
 ul#top-menu li:hover {
     background: rgb(0,118,163);
     color: #FFFFFF;
@@ -229,6 +233,8 @@ ul#top-menu li:hover > ul li a:hover {
     color: #FFFFFF;
     font-style: normal;
     text-decoration: none;
+    padding: 5px;
+    display: block;
 }
 
 .section-title{
@@ -244,7 +250,7 @@ ul#top-menu li:hover > ul li a:hover {
 */
 #welcome-section{
     background: rgb(242,242,242);
-    padding: 60px 0px 50px 100px;
+    padding: 60px 0px 50px 0px;
     overflow: hidden;
 }
 #welcome-multimedia{
@@ -266,7 +272,7 @@ ul#top-menu li:hover > ul li a:hover {
 #intro-section{
     background: rgb(255,255,255);
     height: 400px;
-    padding: 50px 0px 50px 100px;
+    /* padding: 50px 0px 50px 100px; */
 }
 
 
@@ -285,10 +291,8 @@ ul#top-menu li:hover > ul li a:hover {
 }
 
 #intro-blocks-1, #intro-blocks-2,#intro-blocks-3 {
-    height: 250px;
-    margin-top: 1%;
-    margin-left: 60px;
-    width: 210px;
+    width: 27.3%;
+    padding: 0px 3%;
 }
 #intro-blocks-1{
     float: left;
@@ -306,7 +310,7 @@ ul#top-menu li:hover > ul li a:hover {
 */
 #news-section{
     background: rgb(242,242,242);
-    padding: 50px 0px 20px 100px;
+    padding: 25px 0;
 }
 .news{
     background: #FFFFFF;
@@ -324,7 +328,8 @@ ul#top-menu li:hover > ul li a:hover {
 }
 .news-content{
     float: left;
-    margin-left: 20px;
+    margin-left: 37px;
+    padding-top: 5px;
     text-align: justify;
     width: 600px;
 }
@@ -337,6 +342,7 @@ ul#top-menu li:hover > ul li a:hover {
 }
 .newstitle a{
     text-decoration: none;
+    color: #444;
 }
 .type-post{
 
@@ -375,7 +381,7 @@ ul#top-menu li:hover > ul li a:hover {
     padding-top: 20px;
 }
 #blog-footer {
-    background: #F1F1F1;
+    /* background: #F1F1F1; */
     float: left;
     position: relative;
     left: 10%;
