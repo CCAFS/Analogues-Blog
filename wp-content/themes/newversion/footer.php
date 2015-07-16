@@ -52,32 +52,26 @@
                     </div>
                 </div>
             </div>
-            <div style="height:5px;"></div>
-            <!-- <div class="clearfix"></div>-->
+            <div class="clearfix"></div>
             <div id="flagship">
                 <div class="row">
                     <div id="flagship-content">
-                        
-                        <div id="flagship-title">Flagship</div>
+                        Flagship
                         <a href="https://ccafs.cgiar.org/themes/climate-smart-agricultural-practices">
                             <img src="<?php echo get_template_directory_uri();?>/img/csap.png" style="height: 80px;"/>
-                        </a>
-                        <a href="https://ccafs.cgiar.org/themes/climate-smart-agricultural-practices">                           
                             Climate-Smart Agricultural Practices
                         </a>
-                        </div>
-                    
+                    </div>
                     <div id="getintouch">
-                        
-                        <div id="getintouch-title">Get in touch</div>
+                        Get in touch
                         <a href="https://www.facebook.com/CGIARClimate">
-                            <img src="<?php echo get_template_directory_uri();?>/img/facebook.png" style="height: 30px;"/>
+                            <img src="<?php echo get_template_directory_uri();?>/img/facebook.png" style="height: 20px;"/>
                         </a>
                         <a href="https://plus.google.com/+CCAFS/posts">
-                            <img src="<?php echo get_template_directory_uri();?>/img/googleplus.png" style="height: 30px;"/>
+                            <img src="<?php echo get_template_directory_uri();?>/img/googleplus.png" style="height: 20px;"/>
                         </a>
                         <a href="https://twitter.com/cgiarclimate">
-                            <img src="<?php echo get_template_directory_uri();?>/img/twitter.png" style="height: 30px;"/>
+                            <img src="<?php echo get_template_directory_uri();?>/img/twitter.png" style="height: 20px;"/>
                         </a>
                         
                     </div>
@@ -86,7 +80,9 @@
         </footer>
         <!-- FINAL #FOOTER -->
         <div id="copyright">
+            <div class="row">
                 Copyright &#9426; 2015 Climate Analogues. All rights reserved. 
+            </div>
         </div>
     </div>
     <!-- FINAL WRAPPER -->

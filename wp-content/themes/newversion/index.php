@@ -91,9 +91,60 @@
 <section class="section-gray">
     <div class="row">
         <div id="news-section">
-            <div class="section-title"><a href="<?php echo home_url();?>/category/news">News</a></div>
+            <div class="section-title">News</div>
             <?php get_template_part('consult', 'news'); ?>
-            <div id="loadmore"><a href="<?php echo home_url();?>/category/news">See More News</a></div>
+            <!--<div class="news">
+                <div class="newsmedia">
+                    <a href="#"><img src="#"/></a>
+                </div>
+                <div class="news-content">
+                    <div class="newstitle">
+                        Reaching the private sector with tools and resources for climate-smart agriculture in East Africa
+                    </div>
+                    <div class="type-post">Video</div>
+                    <div class="news-excerpt">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                        consequat.
+                    </div>
+                    <div class="readmore"><a href="#">Read More</a></div>
+                </div>
+            </div>
+            <div class="news">
+                <div class="newsmedia">
+                    <a href="#"><img src="#"/></a>
+                </div>
+                <div class="news-content">
+                    <div class="newstitle">
+                        A glimpse into past, present and future climates.
+                    </div>
+                    <div class="type-post">Video</div>
+                    <div id="news-excerpt">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                        consequat. 
+                    </div>
+                    <div class="readmore"><a href="#">Read More</a></div>
+                </div>
+            </div>
+            <div class="news">
+                <div class="newsmedia">
+                    <a href="#"><img src="#"/></a>
+                </div>
+                <div class="news-content">
+                    <div class="newstitle">
+                        How will your forest grow? Climate Analogues provides clues for pine plantation adaptation
+                    </div>
+                    <div class="type-post">Video</div>
+                    <div id="news-excerpt">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                        consequat.
+                    </div>
+                    <div class="readmore"><a href="#">Read More</a></div>
+                </div>
+            </div>-->
+            <div id="loadmore"><a href="#">See More News</a></div>
         </div>
     </div>
 </section>
