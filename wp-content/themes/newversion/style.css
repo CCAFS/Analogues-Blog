@@ -244,6 +244,10 @@ ul#top-menu li:hover > ul li a:hover {
     padding-bottom: 1%;
     text-align: center;
 }
+.section-title a{
+    color: #000000;
+    text-decoration: none;
+}
 
 /*
 *   Welcome section Elements
@@ -326,6 +330,15 @@ ul#top-menu li:hover > ul li a:hover {
     height: 150px;
     width: 250px;
 }
+.newsmedia div{
+    height: 150px;
+    width: 250px;
+}
+
+.img-news{
+    background-size: 150px 250px;
+    background-repeat: no-repeat;
+}
 .news-content{
     float: left;
     margin-left: 37px;
@@ -378,31 +391,37 @@ ul#top-menu li:hover > ul li a:hover {
 
 #footer{
     margin: 0;
-    padding-top: 20px;
 }
 #blog-footer {
-    /* background: #F1F1F1; */
-    float: left;
+    //background: #F1F1F1;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*float: left;
     position: relative;
-    left: 10%;
+    left: 10%;*/
 }
 #leadby{
     float: left;
-    padding: 10px 10px 20px 5px;
+    //padding: 10px 10px 20px 5px;
 }
 #leadby-title{
     color: rgb(87,118,36);
     font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
 }
 #partners{
-    float: right;
-    padding: 10px 10px 20px 32px;
+   float: right;
+    //padding: 10px 10px 20px 32px;
 }
 
 #partners-title{
     color: rgb(87,118,36);
     font-size: 20px;
-    padding-left: 50px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 28px;
 }
 #main-footer {
     list-style-type: none;
@@ -423,26 +442,46 @@ ul#top-menu li:hover > ul li a:hover {
     font-style: normal;
 }
 #flagship{
-    background: #FFFFFF;
-    float: left;
-    padding: 10px 10px 20px 5px;
-    position: relative;
-    left: 25%;
+    padding-top: 110px;
+    //background: #F2F2F2;
+    
 }
 
 #flagship a{
     text-decoration: none;
-    color: #000000;
+    color: #743900;
+}
+#flagship-content{
+    //background: #F2F2F2;
+    float:left;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    width: 350px;
+}
+#flagship-title{
+    font-weight: bold; 
+    //text-decoration: none;
+    color: #743900;
+    font-size: 15px;
+    padding-bottom: 15px;
 }
 #getintouch{
-    float: right;
-    left: 10%;
+    float: right;   
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-right: 45%;
+}
+#getintouch-title{
+    font-weight: bold;
+    color: #743900;
+    font-size: 15px;
+    padding-bottom: 15px;
 }
 #copyright{
-    background: #F1F1F1;
-    margin-left: 50%;
-    width: 350px;
+    background: #F2F2F2;
+    padding-left: 47%;
     padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 
