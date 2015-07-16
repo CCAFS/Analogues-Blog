@@ -1,3 +1,5 @@
+/.gitmodules
+/tool/
 /wp-admin/
 /surveys/
 /wp-includes/
