@@ -46,8 +46,7 @@
                                 the_post_thumbnail();
                                 } else {
                                     ?>
-                            <div class="img-news" style="background: url('<?php bloginfo('template_directory'); ?>/img/logo_ccafs.png'); background-size: 250px 150px; background-repeat: no-repeat;"></div>
-                                        <!--<img src="<?php bloginfo('template_directory'); ?>/img/logo_ccafs.png" alt="<?php the_title(); ?>" />-->
+                                        <img src="<?php bloginfo('template_directory'); ?>/img/logo_ccafs.png" alt="<?php the_title(); ?>" />
                             <?php } ?>
                             <!--<a href="<?php the_permalink(); ?>"><img src="<?php echo $img[0]; ?>"/></a>-->
                         </div>
